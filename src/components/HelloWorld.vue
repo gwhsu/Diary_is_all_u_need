@@ -23,7 +23,7 @@ const count = ref(0)
     我也想跟他討論一下我們的研究計畫，看看他有什麼新的想法。我希望我們能夠在一起工作，共同完成我們的目標。
   </p>
   
-  <button type="button" @click="count++">count is: {{ count }}</button>
+  <button type="button" @click="count++">Like: {{ count }}</button>
 
 </template>
 
