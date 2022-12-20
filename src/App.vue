@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/3.jpg" />
+  <img alt="Vue logo" src="./assets/4.jpg" />
   <HelloWorld msg="DcnLab Diary" />
 </template>
 
