@@ -1,17 +1,7 @@
-<script setup>
-import { ref } from 'vue'
-
-defineProps({
-  msg: String
-})
-
-const count = ref(0)
-</script>
-
 <template>
   <h1>{{ msg }}</h1>
   
-  <p v-bind:style="{ textAlign: 'left' }">
+  <p v-bind:style="{ textAlign: 'center', marginLeft: '50px' }">
     今天是12月15日，我是一位大學教授，叫做蘇老爺。<br>
     我今天沒有去實驗室，而是在家裡讀論文。<br>
     我早上起床後，做了些準備工作，像是收拾房間和做早餐。<br>
@@ -28,6 +18,16 @@ const count = ref(0)
   <button type="button" @click="count++">Like: {{ count }}</button>
 
 </template>
+
+<script setup>
+import { ref } from 'vue'
+
+defineProps({
+  msg: String
+})
+
+const count = ref(0)
+</script>
 
 <style scoped>
 a {
